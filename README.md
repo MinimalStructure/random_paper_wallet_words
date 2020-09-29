@@ -1,1 +1,3 @@
-# random_paper_wallet_words
+#random_paper_wallet_words
+
+I'm creating a paper wallet for a multi-sig wallet. Cutting out bits and pieces of paper or trying to figure out a dice rolling chart is a pain in the neck.  I'm writing this program to make it easier. I plan on converting the 2048 BIP 39 words to a list, and then using random module to pick 6 words from that list as many times as you like. I want to let the user know when 11 and 23 words were chosen.  Each of the 6 words randomly selected will have a number associated with them after I print them out. Then, the user will roll a single die that corresponds to that word to add randomness.
