@@ -2090,6 +2090,7 @@ bip_39_word_list = ['abandon ',
 
 print('This will create a list of 23 seed words from the BIP39 word list using the random module in Python. \n\n\n')
 time.sleep(1)
+print('Disconeect your computer from the Internet after you open https://seedpicker.net/calculator/last-word.html . \n\n\n')
                     
 first_words_list = []
 
@@ -2163,5 +2164,6 @@ first_words_list += [
 
 first_words = listToString(first_words_list)
 
-print("\n\n\nYou can copy and paste these words into the seed picker.(Control + Shift + C and Control + Shift V in the terminal)")
+print("\n\n\nYou can copy and paste these words into https://seedpicker.net/calculator/last-word.html.(Control + Shift + C and Control + Shift V in the terminal)")
 print(first_words)
+print("\n\n\n Make sure you copy all 24 words from seedpicker onto a piece of paper.  Also be sure to get the Specter Desktop file from the QR Code.")
